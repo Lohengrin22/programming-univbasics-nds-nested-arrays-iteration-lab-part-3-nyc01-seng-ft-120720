@@ -9,9 +9,9 @@ def join_nested_strings(src)
     while element_index < src[row_index].length do
       while src[row_index][element_index] == String 
         full_str << src[row_index][element_index] + " "
+        binding.pry 
       end
       element_index += 1 
-      binding.pry 
     end 
     row_index += 1 
   end 
