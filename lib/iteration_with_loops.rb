@@ -9,7 +9,7 @@ def join_nested_strings(src)
     element_index += 1 
   end 
     while src[row_index][element_index] == String do 
-      full_str << src[row_index][element_index]
+      full_str << src[row_index][element_index] + " "
     end 
     row_index += 1 
   end 
